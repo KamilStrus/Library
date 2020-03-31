@@ -70,10 +70,12 @@ namespace XUnitTestProject1.Controllers
             var newUser = new User()
             {
                 Email = "jd@pja.edu.pl",
-                Name = "Jakub",
-                Surname = "Szałek",
+                Name = "Jacek",
+                Surname = "Szmitek",
                 Login = "js",
                 Password = "ASNDKWQOJRJOP!JO@JOP"
+
+
             };
 
             var serializedUser = JsonConvert.SerializeObject(newUser);

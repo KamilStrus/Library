@@ -40,9 +40,10 @@ namespace XUnitTestProject1.Controllers
                 _db.User.Add(new User
                 {
                     IdUser = 1,
-                    Email = "jd@pja.edu.pl",
-                    Name = "Jakub",
-                    Surname = "Szałek",
+                 
+                      Email = "jd@pja.edu.pl",
+                    Name = "Jacek",
+                    Surname = "Szmitek",
                     Login = "js",
                     Password = "ASNDKWQOJRJOP!JO@JOP"
                 });
