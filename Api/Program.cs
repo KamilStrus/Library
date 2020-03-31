@@ -16,9 +16,11 @@ namespace Library
             var logger = NLog.Web.NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
             try
             {
-                RollbarLocator.RollbarInstance.Configure(new RollbarConfig("5e0b046205d14489962d33403714b284"));
+           
+                
+                RollbarLocator.RollbarInstance.Configure(new RollbarConfig("7f4cbd7d513442a0ab6b05d03c6d1d6c"));
                 RollbarLocator.RollbarInstance.Info("Rollbar is configured properly.");
-
+               
                 logger.Debug("init main");
                 CreateWebHostBuilder(args).Build().Run();
             }
